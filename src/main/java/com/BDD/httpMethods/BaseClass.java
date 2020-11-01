@@ -12,10 +12,8 @@ public class BaseClass {
 	public static Properties property;
 
 	public BaseClass() {
-		System.out.println(System.getenv("URL"));
 		RestAssured.baseURI = System.getenv("URL");
 		request = RestAssured.given();
 		request.log().all();
-		
 	}
 }

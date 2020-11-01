@@ -24,5 +24,4 @@ public class TestRunner extends TestBase{
 		Reporter.setSystemInfo("os", "Windows 10");
 		Reporter.setTestRunnerOutput("Sample test runner output message");
 	}
-
 }
